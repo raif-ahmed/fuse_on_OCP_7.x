@@ -1,0 +1,38 @@
+.FIS vs Fuse on OpenShift
+[width="80%",cols="4,6,6",options="header"]
+|=========================================================
+|Functionality |Fuse Integration Services 2.0 |Fuse on OpenShift
+
+|Fuse Server
+|Red Hat Fuse 6.3
+|Red Hat Fuse 7
+
+|OpenShift Container Platform
+|3.3+
+|3.7+
+
+|OSGi Container
+|Karaf 2.x
+|Karaf 4.x
+
+|JavaTM standalone
+|Spring Boot 1.4.1
+|Spring Boot 1.5.12
+
+|Apache Camel
+|#2.17#  on Karaf,#2.18.1# on Spring Boot
+|#2.21.0# on Karaf, Springboot, JBoss EAP
+
+|Apache CXF
+|3.1.5
+|3.1.11
+
+|Web Server component
+|Jetty
+|Undertow
+
+|Fabric8 Maven plug-in
+|3.1.8.0
+|3.5.33
+
+|=========================================================
