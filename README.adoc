@@ -212,7 +212,7 @@ image::./images/packaging_process.png[]
 [#img-s2i-build]
 [caption="Figure 3: OpenShift S2I Code Workflow"]
 image::./images/s2i_build.png[]
-+
+
 ===== Workflow process for S2I Code Workflow
 
 . Code pulled from Git repository, or from developer machine after compression, and copied onto S2I builder image
