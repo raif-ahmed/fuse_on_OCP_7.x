@@ -206,7 +206,7 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate \
 [#img-packaging-process]
 [caption="Figure 2: Fuse on OpenShift Packaging Process"]
 image::./images/packaging_process.png[]
-+
+
 ==== Deployment with S2I
 
 [#img-s2i-build]
