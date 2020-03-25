@@ -59,7 +59,8 @@ On OpenShift 4.x, you can choose one of these Fuse Console deployment options:
 . namespace - The Fuse Console has access to a specific OpenShift project (namespace). To deploy this template, you must have the administrator role for the OpenShift project.
 ** https://github.com/rahmed-rh/fuse_on_OCP_7.5/blob/master/scripts/install_fuse_console_cluster.sh[script for installing fuse console for namespace]
 
-== Developer
+== Getting Start for Developer
+
 === Maven Archetypes
 
 Used to generate new project with required resources and POM dependencies
@@ -70,7 +71,7 @@ Used to generate new project with required resources and POM dependencies
 +
 ** https://maven.repository.redhat.com/ga/[Red Hat GA]
 
-* Archetype types
+=== Archetype types
 
 ==== Karaf & Spring Boot 1.5
 
