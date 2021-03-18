@@ -3,8 +3,8 @@ oc patch configs.samples.operator.openshift.io cluster --type=merge -p '{"spec":
 oc patch configs.samples.operator.openshift.io cluster --type=merge -p '{"spec":{"skippedTemplates":["s2i-fuse75-eap-camel-amq","s2i-fuse75-eap-camel-cdi","s2i-fuse75-eap-camel-cxf-jaxrs","s2i-fuse75-eap-camel-cxf-jaxws","s2i-fuse75-eap-camel-jpa","s2i-fuse75-karaf-camel-amq","s2i-fuse75-karaf-camel-log","s2i-fuse75-karaf-camel-rest-sql","s2i-fuse75-karaf-cxf-rest","s2i-fuse75-spring-boot-camel","s2i-fuse75-spring-boot-camel-amq","s2i-fuse75-spring-boot-camel-config","s2i-fuse75-spring-boot-camel-drools","s2i-fuse75-spring-boot-camel-infinispan","s2i-fuse75-spring-boot-camel-rest-sql","s2i-fuse75-spring-boot-camel-rest-3scale","s2i-fuse75-spring-boot-camel-xa","s2i-fuse75-spring-boot-camel-xml","s2i-fuse75-spring-boot-cxf-jaxrs","s2i-fuse75-spring-boot-2-camel-amq","s2i-fuse75-spring-boot-2-camel-drools","s2i-fuse75-spring-boot-2-camel-infinispan","s2i-fuse75-spring-boot-2-camel-rest-3scale","s2i-fuse75-spring-boot-2-camel-rest-sql","s2i-fuse75-spring-boot-2-camel-teiid","s2i-fuse75-spring-boot-2-camel","s2i-fuse75-spring-boot-2-camel-xa","s2i-fuse75-spring-boot-2-camel-xml","s2i-fuse75-spring-boot-2-cxf-jaxrs","s2i-fuse75-spring-boot-2-cxf-jaxws"]}}'
 
 
-BASEURL=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.fuse-750056-redhat-00006
-BASEURL_SB=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.fuse-sb2-750016-redhat-00005
+BASEURL=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.0.fuse-sb2-780019-redhat-00005
+BASEURL_SB=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.0.fuse-sb2-780019-redhat-00005
 #BASEURL=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.0.fuse-760040-redhat-00001
 #BASEURL_SB=https://raw.githubusercontent.com/jboss-fuse/application-templates/application-templates-2.1.0.fuse-sb2-760037-redhat-00001
 
