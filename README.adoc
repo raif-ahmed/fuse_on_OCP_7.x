@@ -6,7 +6,7 @@
 :stylesdir: stylesheets
 :stylesheet: colony.css
 
-= Understand Fuse 7.5 on OpenShift
+= Understand Fuse 7.x on OpenShift
 
 
 .Goals
